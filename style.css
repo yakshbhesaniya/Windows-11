@@ -4,8 +4,8 @@
 }
 
 body{
-    /* background-image:url('bg.jpeg') ; */
-    /* background-size: cover; */
+    background-image:url('bg.jpeg') ;
+    background-size: cover;
     height: 100vh;
     overflow: hidden;
 }
@@ -40,4 +40,14 @@ body{
 .bgvideo{
     height: 100%;
     width: 100%;
+}
+.icons{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.icons > img{
+    margin-bottom: 10px;
+    width: 70px;
 }
